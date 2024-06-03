@@ -1,0 +1,16 @@
+variable "name" {}
+variable "tenant" {}
+variable "environment" {}
+variable "vpc_id" {}
+variable "cidr_block" {}
+variable "additional_ips" {}
+variable "subnet_ids" {}
+variable "encryption" {}
+variable "kms_key_id" {}
+variable "search_name" {}
+variable "engine_version" {}
+variable "instance_type" {}
+variable "instance_count" {}
+variable "zone_awareness" {}
+variable "volume_size" {}
+variable "volume_type" {}
